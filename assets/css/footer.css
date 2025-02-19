@@ -1,0 +1,8 @@
+hr{
+    margin: 0;
+}
+
+footer{
+    background-color: var(--cor-navebar);
+    padding: 1em;
+}

@@ -30,6 +30,5 @@
     text-align: center;
     color: var(--cor-navebar);
     background: url(/assets/img/Lupa.svg) no-repeat;
-    background-position: 1em;
-  
+    background-position: 1em; 
 }

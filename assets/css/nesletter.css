@@ -1,0 +1,39 @@
+.newsletter{
+    background-color: var(--cor-navebar);
+    padding: 1em;
+}
+
+.newsleter__titulo,
+.newsletter__text{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.newsleter__titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.newsletter__text{
+    font-weight: 300;
+    padding: 1em 0;
+}
+
+
+.newletter__email{
+    border: 1px solid #002f52;
+    border-radius: 24px;
+    width: 90%;
+    padding: 1em;
+    color: #002f52;
+    
+}
+
+.newletter__email::placeholder{
+    font-family: #002f52;
+    color: var(--fonte-primaria);
+    background: url(/assets/img/Email.svg) no-repeat; 
+    padding: 0 2em;
+}

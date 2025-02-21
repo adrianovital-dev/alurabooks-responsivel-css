@@ -1,6 +1,4 @@
-
-
-.cabecario__menu_hamburguer{
+.cabecario__menu_hamburguer {
     width: 50px;
     height: 24px;
     background-image: url(/assets/img/Menu.svg);
@@ -10,7 +8,7 @@
 }
 
 
-.cabecalho{
+.cabecalho {
     background-color: var(--cor-navebar);
     display: flex;
     justify-content: space-between;
@@ -18,23 +16,23 @@
     position: relative;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
 }
 
-.container_imagem{
+.container_imagem {
     padding: 1em;
 }
 
-.lista-menu{
-    display: none ;
-     position: absolute;
-     top:100%;
-     width: 60vw ;
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
 }
 
-.container__botao:checked ~ .lista-menu{ 
+.container__botao:checked~.lista-menu {
     display: block;
 }
 
@@ -44,19 +42,75 @@
     background-color: var(--cor-navebar)
 }
 
-.lista-menu__titulo{
+.lista-menu__titulo {
     color: var(--cor-laranja);
     font-size: 700;
 }
 
-.lista-menu__link{
+.lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-transform: uppercase ;
+    text-transform: uppercase;
 }
 
-.container__botao{
+.container__botao {
     display: none;
+}
+
+.container__titulo,
+.opcoes__item{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
+
+    .container__titulo{
+        font-weight: 400;
+        display: block;
+    }
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+    .opcoes{
+        display: flex;
+        
+    }
+
+    .opcoes__item {
+        display: block;
+        font-size: 16px;
+        padding: 0 1em;
+        color: var(--black);
+        text-transform: uppercase;
+        
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .container__transparente,
+    .cabecario__menu_hamburguer{
+        display: none;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
 }

@@ -13,8 +13,11 @@
     --cor-navebar: #ffffff;
     --cor-fundo: #EBECEE;
     --cor-footer: #f9f9f9;
+    --black: #0000000;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-primaria: 'poppins', sans-serif;
+    --fonte-secundario: "Josefin Sans"
+    
     }
 
 

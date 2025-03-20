@@ -16,7 +16,9 @@
     --black: #0000000;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-primaria: 'poppins', sans-serif;
-    --fonte-secundario: "Josefin Sans"
+    --fonte-secundario: "Josefin Sans";
+    --grey: #474646;
+    --light-grey: #858585;
     
     }
 

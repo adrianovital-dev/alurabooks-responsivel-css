@@ -6,3 +6,37 @@ footer{
     background-color: var(--cor-navebar);
     padding: 1em;
 }
+
+.lista-rodape{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista-rodape{
+        display: block;
+    }
+
+    .lista-rodape__item{
+        display: flex;
+        align-items: center;
+        margin: 0.6em;
+
+    }
+    .lista-rodape__link{
+        color: var(--grey);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+    .lista-rodape__title{
+        color: var(--light-grey);
+        font-size: 14px;
+    }
+    .footer__titulo{
+        font-size: 24px;
+    }
+}

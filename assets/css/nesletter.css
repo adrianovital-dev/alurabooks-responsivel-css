@@ -39,19 +39,28 @@
 }
 
 @media screen and (min-width:1024px) {
-    .newsleter__titulo{
+    .newsleter__titulo {
         font-size: 24px;
     }
-    .newsletter{
+
+    .newsletter {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .newsletter__descricao{
+
+    .newsletter__descricao {
         margin-right: 1em;
         width: 30%;
     }
-    .newletter__email{
+
+    .newletter__email {
         width: 30%;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .newsletter {
+        padding: 3em 20vw;
     }
 }
